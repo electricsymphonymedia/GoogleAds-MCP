@@ -53,13 +53,13 @@ PORT=8080
 You would need a Claude Team or Enterprise Plan for this deployment.
 Add to Claude Desktop settings (Settings → Manage Connectors → Organization Connectors → Add Custom Connector):
 
-Name: Google Ads MCP 
-URL: https://your-app.up.railway.app/mcp/sse
+**Name:** Google Ads MCP 
+**URL:** https://your-app.up.railway.app/mcp/sse
 
-Click Advance Setting:
+**Click Advance Setting:**
 
-OAuth Client ID: your-client-id-same-as-railway-deployment
-OAuth Client Secret: your-client-secret-same-as-railway-deployment
+**OAuth Client ID:** your-client-id-same-as-railway-deployment
+**OAuth Client Secret:** your-client-secret-same-as-railway-deployment
 
 ⚠️ **Important**: The `clientId` and `clientSecret` in Claude MUST match exactly what you set in `OAUTH_CLIENTS` environment variable.
 
